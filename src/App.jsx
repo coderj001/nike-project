@@ -1,13 +1,14 @@
 import './App.css'
 import Nav from './components/Nav'
+import { Hero, PopularProducts } from './sections'
 
 function App() {
 
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">Hero</section>
-      <section className="padding">Popular Products</section>
+      <Hero />
+      <PopularProducts />
       <section className="padding">Super Quality</section>
       <section className="padding">Services App</section>
       <section className="padding">Special Offer</section>
