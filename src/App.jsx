@@ -1,6 +1,6 @@
 import './App.css'
 import Nav from './components/Nav'
-import { Hero, PopularProducts } from './sections'
+import { Hero, PopularProducts, ServiceApp, SpecialOffer, SuperQuality } from './sections'
 
 function App() {
 
@@ -9,9 +9,9 @@ function App() {
       <Nav />
       <Hero />
       <PopularProducts />
-      <section className="padding">Super Quality</section>
-      <section className="padding">Services App</section>
-      <section className="padding">Special Offer</section>
+      <SuperQuality />
+      <ServiceApp />
+      <SpecialOffer />
       <section className="padding bg-pale-blue">Customer Reviews</section>
       <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
       <section className="padding">Footer</section>
